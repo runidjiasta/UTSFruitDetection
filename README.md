@@ -1,4 +1,4 @@
-# Proyek Deteksi Objek menggunakan YOLOv8: Deteksi Buah Real-Time
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/51bb841f-ffed-41b9-8bcf-7cc0fff86979" /># Proyek Deteksi Objek menggunakan YOLOv8: Deteksi Buah Real-Time
 
 ## SIP 107 Rancang Bangun Sistem Berbasis AI
 
@@ -34,7 +34,7 @@ Model yang telah dilatih (`best.pt`) dapat dijalankan secara lokal di komputer A
 1.  **Persiapan Lingkungan**
     * Pastikan Anda memiliki Python dan Anaconda (atau pip) ter-install di komputer Anda.
     * Clone repositori ini atau download file `deteksi_webcam.py` dan `best.pt`.
-    **PENTING**: Letakkan kedua file (`deteksi_webcam.py` dan `best.pt`) di dalam satu folder yang sama.
+    * **PENTING**: Letakkan kedua file (`deteksi_webcam.py` dan `best.pt`) di dalam satu folder yang sama.
 
 3.  **Install Library yang Dibutuhkan**
     * Buka Anaconda Prompt (atau Terminal/CMD biasa).
