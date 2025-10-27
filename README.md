@@ -59,5 +59,5 @@ Model yang telah dilatih (`best.pt`) dapat dijalankan secara lokal di komputer A
 
 ## Video Hasil Deteksi
 
-Berikut adalah video demo hasil deteksi real-time dari model kami yang telah di-upload ke YouTube:
+Berikut adalah video demo hasil deteksi real-time dari model kami yang telah di-upload ke YouTube:  
 https://youtu.be/Pepyb9596Hk?si=MW3gpxZpeWSbGCFZ
