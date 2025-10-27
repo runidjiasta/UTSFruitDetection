@@ -19,7 +19,7 @@ Dataset yang digunakan bersumber dari "Fruits dataset for training RT-DETR" di [
 
 Dataset ini kemudian kami proses, lakukan augmentasi, dan bagi menjadi set train/valid/test menggunakan Roboflow. Model kami dilatih untuk mendeteksi 22 kelas buah yang berbeda (terdiri dari berbagai jenis Apel, Kiwi, dan Jeruk).
 
-* **Link Roboflow Project**: [https://app.roboflow.com/ds/9gdNgUVojB?key=ODPfP2WwEr]
+* **Link Roboflow Project**: [https://app.roboflow.com/runis/deteksibuah-vrg88/1]
 
 ## Isi Repositori
 
