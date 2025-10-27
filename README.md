@@ -32,37 +32,30 @@ Dataset ini kemudian kami proses, lakukan augmentasi, dan bagi menjadi set train
 Model yang telah dilatih (`best.pt`) dapat dijalankan secara lokal di komputer Anda untuk mendeteksi buah secara real-time menggunakan webcam.
 
 1.  **Persiapan Lingkungan**
-
-    Pastikan Anda memiliki Python dan Anaconda (atau pip) ter-install di komputer Anda.
-
-    Clone repositori ini atau download file `deteksi_webcam.py` dan `best.pt`.
+    * Pastikan Anda memiliki Python dan Anaconda (atau pip) ter-install di komputer Anda.
+    * Clone repositori ini atau download file `deteksi_webcam.py` dan `best.pt`.
     **PENTING**: Letakkan kedua file (`deteksi_webcam.py` dan `best.pt`) di dalam satu folder yang sama.
 
 3.  **Install Library yang Dibutuhkan**
-
-    Buka Anaconda Prompt (atau Terminal/CMD biasa).
-
-    Install semua library yang diperlukan dengan satu perintah:
+    * Buka Anaconda Prompt (atau Terminal/CMD biasa).
+    * Install semua library yang diperlukan dengan satu perintah:
     ```bash
     pip install ultralytics opencv-python torch
     ```
 
 5.  **Jalankan Script Deteksi**
-
-    Pastikan tidak ada program lain (seperti Zoom, Google Meet, OBS, dll.) yang sedang menggunakan kamera Anda. Jika kamera error, tutup semua program lain dan coba lagi.
-
-    Di Anaconda Prompt, pindah ke folder tempat Anda menyimpan file (gunakan `cd`):
+    * Pastikan tidak ada program lain (seperti Zoom, Google Meet, OBS, dll.) yang sedang menggunakan kamera Anda. Jika kamera error, tutup semua program lain dan coba lagi.
+    * Di Anaconda Prompt, pindah ke folder tempat Anda menyimpan file (gunakan `cd`):
     ```bash
     # Contoh:
     cd C:\Users\NamaKamu\Documents\ProjekDeteksi
     ```
-    Setelah berada di folder yang benar, jalankan script Python:
+    * Setelah berada di folder yang benar, jalankan script Python:
     ```bash
     python deteksi_webcam.py
     ```
-    Sebuah jendela akan muncul menampilkan feed webcam Anda. Arahkan kamera ke buah-buahan untuk melihat deteksi.
-
-    Tekan tombol **'q'** pada keyboard (sambil meng-klik jendela video) untuk keluar.
+    * Sebuah jendela akan muncul menampilkan feed webcam Anda. Arahkan kamera ke buah-buahan untuk melihat deteksi.
+    * Tekan tombol **'q'** pada keyboard (sambil meng-klik jendela video) untuk keluar.
 
 ## Video Hasil Deteksi
 
